@@ -1,3 +1,4 @@
+<<<<<<< 06c2814c24ba01f29a831bb1301f54cb803cde2c
 
 	div{
 		width:500px;
@@ -15,3 +16,248 @@
 	body{
 		background-color: silver;
 	}
+=======
+*{
+	margin: 0;
+}
+body{
+	width:100%;
+	height: 500%;
+	overflow:auto;
+}
+.topbar{
+text-decoration: none;
+height: 10vw;
+display: flex;
+font-size: 100%;
+letter-spacing: 5%;
+color: rgb(100,120,250);
+position: fixed;
+width:100%;
+font-family: 'Metamorphous', cursive;
+background-image: url(IMG/mousketeers.jpg);
+background-size: 100% 100%;
+}
+.topbar h2{
+
+ font-family: 'Metamorphous', cursive;
+ font-size:3vw;
+ text-align:center;
+ flex:1;
+ padding-left: 23%;
+}
+.container {
+  letter-spacing:10%;
+  text-decoration: none;
+  flex-direction: row;
+  flex:4;
+  margin:0;
+  position: relative; 
+  list-style: none;
+  display: flex;
+  padding-right: 22%;
+}
+
+.container li{ 
+    font-family: 'Shadows Into Light', cursive;
+    font-color: green;
+    font-size: 150%;
+	display: inline-flex;  
+	padding: 5%; 
+	list-style: none; 
+	text-decoration: none;
+	flex:2;
+	 }
+
+ .container a{
+ 	text-decoration: none;
+ }
+
+ .container a:hover{
+ 	text-decoration: inherit;
+ 	font-size: 40px;
+ }
+
+.container2 {
+   margin-left:0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  list-style: none;
+  text-decoration: none;
+  width: 100%;
+}
+.container2 li{
+	font-family: 'Shadows Into Light', cursive;
+    font-size: 120%;
+    padding-bottom: 5%;
+    margin: auto;
+    text-decoration: none;
+    }
+.container2 a{
+	list-style: none;
+    text-decoration: none; 
+} 
+.container2 a:hover{
+	text-decoration: inherit;
+	font-size: 25px;
+}
+.container3 {
+	margin-left:0;
+	display: flex;
+	flex-direction: column;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    list-style: none;
+    text-decoration: none;
+    width: 100%;
+}
+.container3 li{
+	font-family: 'Shadows Into Light', cursive;
+    font-size: 120%;
+    margin:auto;
+    padding-bottom: 5%;
+    list-style: none;
+    text-decoration: none; 
+}
+.container3 a{
+	list-style: none;
+    text-decoration: none; 
+} 
+.container3 a:hover{
+	text-decoration: inherit;
+	font-size: 25px;
+}
+* {
+  box-sizing:border-box;
+}
+section {
+ display: -webkit-flex;
+    display: flex;
+    width:100%;
+    height: 50vw;
+}
+
+.left {
+  background-color:#2196F3;
+  padding:5%;
+  display: flex;
+  flex:1;
+  width:20%; 
+}
+
+
+.main {
+  background-color:#f1f1f1;
+  background-image: url(IMG/mickey.jpeg);
+  background-size: 100% 100%;
+  padding:5%;
+  flex:3;
+  width:60%; 
+  margin:auto;
+}
+.right {
+  background-color:#4CAF50;
+  padding:5%;
+  display: flex;
+  flex:1;
+  width:20%; 
+}
+
+@media screen and (max-width:800px) {
+.topbar{    
+    flex-direction: column;
+     text-align: center;
+     }
+ section{
+ 	flex-direction: column;
+     text-align: center;
+ }
+.container4{
+	flex-direction: column;
+     text-align: center;
+}
+}
+.hand{
+
+}
+
+h1{
+	font-size: 400%;
+	color:white;
+	text-align: center;
+	font-family: 'Shadows Into Light', cursive;
+
+}
+
+.container4{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background-image: url(IMG/contactus.jpg);
+	width:100%;
+	background-size: cover;
+	line-height: 2000%;
+
+}
+
+.container4 input{
+	align-items: center;
+	font-family: sans-serif;
+    border-radius: 10px;
+	padding-bottom: 2vw;
+	width: 50%;
+	margin-bottom: 10px;
+}
+
+.container4 textarea{
+	align-items: center;
+	font-family: sans-serif;
+    border-radius: 10px;
+	padding:75px;
+	margin-bottom: 20px;
+	width: 50%;
+	height: 1850%;;
+}
+
+.container4 a{
+	margin-top:0;
+	font-size: 3vw;
+	color: black;
+	text-decoration: none;
+	list-style: none;
+}
+
+.low-bar {
+bottom: 0;
+background-color: #666;
+width: 100%;
+ font-family: 'Metamorphous', cursive;
+
+} 
+.foot {
+  color: white;
+  flex: 1;
+  font-size: 40px;
+  padding: 18px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.links {
+  display: flex;
+  list-style: none;
+  flex-flow: row wrap;
+}
+.links li {
+  flex: 1;
+  text-align: center;
+}
+.links img {
+  
+  width: 50px;
+  height: 50px;
+  margin-bottom: 50px;
+}
+
+
+>>>>>>> First Responsive Web Page
