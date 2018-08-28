@@ -330,15 +330,16 @@ h1{
 bottom: 0;
 background-color: #666;
 width: 100%;
-line-height: 50%;
+height:100%;
+line-height: 100%;
 margin-bottom: 0;
  font-family: 'Metamorphous', cursive;
 } 
 .foot {
   color: white;
   flex: 1;
-  font-size: 40px;
-  padding: 18px;
+  font-size: 6vw;
+  padding-top: 18px;
   text-transform: uppercase;
   text-align: center;
 }
