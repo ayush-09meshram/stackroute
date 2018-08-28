@@ -352,13 +352,7 @@ margin-bottom: 0;
   text-align: center;
 }
 .links img {
-  
   width: 50px;
   height: 50px;
   margin-bottom: 10px;
-}
-
-.links img:hover{
-  text-decoration: inherit;
-  font-size:4vw;
 }
