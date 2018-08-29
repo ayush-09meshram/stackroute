@@ -262,13 +262,13 @@ justify-content: center;
       align-content: center;
      }
      .hero-text h2{
-      font-size:3vw;
+      font-size:4vw;
      }
      .hero-text p{
-      font-size: 2vw;
+      font-size: 3vw;
      }
      .hero-text a{
-      font-size:2vw;
+      font-size:2.5vw;
      }
      
      .container2{
@@ -352,6 +352,7 @@ h1{
     border-radius: 10px;
   padding-bottom: 2vh;
   width: 50%;
+    margin-top: 1%;
 }
 
 .container4 textarea{
@@ -360,7 +361,8 @@ h1{
     border-radius: 10px;
   padding:1vh;
   width: 50%;
-  height: 1250%;;
+  height: 1250%;
+    margin-top: 1%;
 }
 
 .container4 a{
