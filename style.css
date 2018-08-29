@@ -9,13 +9,14 @@ body{
 .topbar{
 z-index: 1;
 text-decoration: none;
-padding-top: 0vh;
-height: 16vh;
+margin: auto;
+padding-top: 1vh;
+height: 15%;
 display: flex;
 flex-grow: 1;
 font-size: 100%;
 letter-spacing: 5%;
-color: rgb(100,120,250);
+color: white;
 position: fixed;
 width:100%;
 font-family: 'Metamorphous', cursive;
@@ -28,6 +29,10 @@ background-size: 100% 16vh;
  font-size:3vw;
  text-align:left;
  flex:1;
+ margin-left: 1vw;
+ color: blue;
+ margin-top: 3vh;
+ margin-bottom: 0vh;
  flex-grow:1;
 }
 .container {
@@ -35,7 +40,10 @@ background-size: 100% 16vh;
   text-decoration: none;
   flex-direction: row;
   flex:3;
-  margin:0;
+  padding-bottom: 4vh;
+  color: blue;
+  padding-top: 0;
+  margin:auto;
   position: relative; 
   flex-grow:1;
   list-style: none;
@@ -45,7 +53,7 @@ background-size: 100% 16vh;
 
 .container li{ 
     font-family: 'Shadows Into Light', cursive;
-    font-color: green;
+    color: blue;
     font-size: 150%;
   display: inline-flex;  
   flex-grow:1;
@@ -57,22 +65,22 @@ background-size: 100% 16vh;
   border-right:2.5%;
   border-top:2.5%;
   border-bottom:2.5%;
-  bo
    }
 
  .container a{
   text-decoration: none;
-  color:red;
+  color:blue;
  }
 
  .container a:hover{
   text-decoration: inherit;
-  font-size: 40px;
+  font-size: 20px;
  }
  .hero{
   position:relative;
   display: flex;
-  padding-top: 16vh;
+  padding-top: 10vh;
+  height:50%;
   flex-grow: 1;
  }
 .hero-image{
@@ -81,7 +89,7 @@ background-size: 100% 16vh;
   flex-flow: column-wrap;
   flex-grow: 1;
   font-size:200%;
-  height: 2000%;
+  height: 5000%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -197,7 +205,7 @@ background-size: 100% 16vh;
         margin:auto;
         padding-top: 8vw;
         line-height: 300%;
-    background-image: url(https://media.giphy.com/media/l4KhWPNyLHiB3TjVe/giphy.gif);
+    background-image: url(https://media.giphy.com/media/l4KhWPNyLHiB3TjVe/giphy.gif); /*https://media.giphy.com/media/l4KhWPNyLHiB3TjVe/giphy.gif*/
     background-size: cover;
 }
 
@@ -227,53 +235,83 @@ background-size: 100% 16vh;
 }
 
 @media screen and (max-width: 907px) {
-.topbar{    
+.topbar{   
+display: flex; 
+align-items: center;
+justify-content: center;
     flex-direction: column;
      text-align: center;
+     position: fixed;
      background-repeat: no-repeat;
-     }
+   }
      .topbar h2{
       text-align:center;
-     }
-     .hero-text{
-
-      font-size:150%;
-      justify-content: center;
-      align-content: center;
-     }
-     .hero-text h2{
-      font-size:4vw;
-     }
-     .hero-text p{
-      font-size: 3vw;
-     }
-     .hero-text a{
-      font-size:3vw;
+      flex-grow:inherit;
      }
      .container{
       flex-direction: row;
       justify-content: space-around;
+      flex-grow:inherit;
      } 
+     .hero{
+      display: flex;
+      flex-direction: column;
+     }
+     .hero-text{
+      font-size:120%;
+      justify-content: center;
+      align-content: center;
+     }
+     .hero-text h2{
+      font-size:3vw;
+     }
+     .hero-text p{
+      font-size: 2vw;
+     }
+     .hero-text a{
+      font-size:2vw;
+     }
+     
      .container2{
       flex-direction: column;
+      align-items: center;
+      justify-content: center;
      text-align: center;
      width: 100%;
      }
      .container3{
       flex-direction: column;
+      align-self: center;
      text-align: center;
+     width:100%;
      }
      .hero-image{
+           position:relative;
       flex-direction: column;
      text-align: center;
      }
  #section{
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
      text-align: center;
  }
 .container4{
   flex-direction: column;
      text-align: center;
+}
+.lowbar{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.links li{
+  justify-content: space-around;
+  align-items: center;
+}
+.links img{
+  justify-content: space-around;
 }
 }
 
@@ -329,11 +367,14 @@ h1{
 .low-bar {
 bottom: 0;
 background-color: #666;
+display: flex;
+flex-direction: column;
 width: 100%;
 height:100%;
 line-height: 100%;
 margin-bottom: 0;
  font-family: 'Metamorphous', cursive;
+  justify-content: space-around;
 } 
 .foot {
   color: white;
@@ -347,9 +388,11 @@ margin-bottom: 0;
   display: flex;
   list-style: none;
   flex-flow: row wrap;
-}
+justify-content: space-around;
+padding-right: 8%;}
 .links li {
   flex: 1;
+  justify-content: space-around;
   text-align: center;
 }
 .links img {
